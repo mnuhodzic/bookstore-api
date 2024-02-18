@@ -1,3 +1,11 @@
+npm run strapi export -- --no-encrypt
+
+// execute this command only first time
+npm run populate
+strapi import -- -f export_20240218151144.tar.gz
+
+npm run start
+
 # 🚀 Getting started with Strapi
 
 Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/dev-docs/cli) (CLI) which lets you scaffold and manage your project in seconds.
