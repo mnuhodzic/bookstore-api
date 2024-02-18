@@ -1,7 +1,10 @@
+npm install
+
 npm run strapi export -- --no-encrypt
 
 // execute this command only first time
 npm run populate
+strapi import -f export_20240218151144.tar.gz
 strapi import -- -f export_20240218151144.tar.gz
 
 npm run start

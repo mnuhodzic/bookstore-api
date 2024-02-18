@@ -10,7 +10,7 @@
   "scripts": {
     "build": "strapi build",
     "develop": "strapi develop",
-    "populate": "strapi import -- -f export_20240218151144.tar.gz",
+    "populate": "strapi import -f export_20240218151144.tar.gz",
     "start": "strapi start",
     "strapi": "strapi"
   },
