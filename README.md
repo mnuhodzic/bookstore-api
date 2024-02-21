@@ -4,8 +4,8 @@ npm run strapi export -- --no-encrypt
 
 // execute this command only first time
 npm run populate
-strapi import -f export_20240221164533.tar.gz
-strapi import -- -f export_20240221164533.tar.gz
+strapi import -f export_20240221233842.tar.gz
+strapi import -- -f export_20240221233842.tar.gz
 
 npm run start
 
